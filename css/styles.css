@@ -71,6 +71,7 @@
     padding: 20px;
     opacity: 0.8;
 }
+
 .download-button {
     width: 200px;
 }
@@ -90,7 +91,13 @@
 .fs-9 {
     font-size: 8px;
 }
+
+.responsive-heading {
+    font-size: 50px;
+}
+
 /* mobile device */
+
 
 @media only screen and (max-width: 600px) {
     .info-card-container {
@@ -116,5 +123,7 @@
         background-position: center;
     }
 
-
+    .responsive-heading {
+        font-size: 20px;
+    }
 }

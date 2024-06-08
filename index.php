@@ -56,15 +56,17 @@
             </div>
         </div>
     </div>
-    <section id="hero-section" class="py-5 d-flex justify-content-center align-items-end px-4 px-md-5 ">
-        <div class="container-fluid text-center">
+
+    <section id="hero-section" class="py-5 d-flex justify-content-center align-items-end align-items-md-center px-4 px-md-5 ">
+        <div class="container-fluid text-center text-md-start">
             <span class="badge bg-dark mt-5"><img src="img/crown.svg" alt="Crown"> JACKPOT DRAW</span>
-            <h1 class="text-white fs-4 fw-bold display-md-4">WIN A MERCEDES GLC AMG <br> LINE + PRIZE BUNDLE!</h1>
+            <h1 class="text-white responsive-heading fw-bold">WIN A MERCEDES GLC AMG <br> LINE + PRIZE BUNDLE!</h1>
             <h1 class="text-gradient-theme mb-4">£0.50</h1>
-            <a href="#" class="btn btn-sm btn-md-lg fw-bold text-uppercase bg-gradient-theme px-5 w-100">Enter
+            <a href="#" class="btn fw-bold text-uppercase bg-gradient-theme px-5">Enter
                 now</a>
         </div>
     </section>
+
     <section id="brands" class="py-2 d-none d-md-block">
         <div class="scroll-area">
             <?php
@@ -324,7 +326,7 @@
                         <img src="img/logo-light.png" alt="Logo" width="200">
                     </div>
                 </div>
-                <div class="col-6 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center text-md-start">
                     <h4 class="text-white my-4">Website</h4>
                     <ul class="list-unstyled mb-0 text-white">
                         <li>My Raffles</li>
@@ -334,7 +336,7 @@
                         <li>Winners Gallery</li>
                     </ul>
                 </div>
-                <div class="col-6 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center text-md-start">
                     <h4 class="text-white my-4">Categories</h4>
                     <ul class="list-unstyled mb-0 text-white">
                         <li>My Raffles</li>
@@ -344,7 +346,7 @@
                         <li>Winners Gallery</li>
                     </ul>
                 </div>
-                <div class="col-6 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center text-md-start">
                     <h4 class="text-white my-4">Contact</h4>
                     <ul class="list-unstyled mb-0 text-white">
                         <li>My Raffles</li>
@@ -358,7 +360,7 @@
             <hr class="text-white my-5">
             <div class="d-md-flex text-center text-md-start justify-content-between align-items-center">
                 <p class="text-white mb-0">Copyright © 2024. All rights reserved. </p>
-                <div class="privacy d-flex gap-4 mx-auto justify-content-center justify-content-md-end ">
+                <div class="privacy d-flex gap-4 justify-content-center justify-content-md-betwen">
                     <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
                     <a href="#" class="text-white text-decoration-none">Terms & Conditions</a>
                 </div>
