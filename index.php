@@ -17,7 +17,7 @@
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center justify-content-between">
                 <a href="#" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0">Sign In</a>
-                <img src="img/logo.png" alt="Logo" class="logo me-md-4">
+                <img src="img/logo.svg" alt="Logo" class="logo me-md-4">
                 <ul class="list-unstyled d-none d-md-flex mb-0 d-flex justify-content-start align-items-center gap-4">
                     <li><a href="#" class="text-white text-decoration-none fw-bold">All competitions</a></li>
                     <li><a href="#" class="text-white text-decoration-none fw-bold">Charity</a></li>
@@ -323,7 +323,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-3">
                     <div class="text-center text-md-start mb-5">
-                        <img src="img/logo-light.png" alt="Logo" width="200">
+                        <img src="img/logo-light.svg" alt="Logo" width="200">
                     </div>
                 </div>
                 <div class="col-6 col-md-3 text-center text-md-start">
