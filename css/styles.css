@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #ffbd0a;
+    --secondary-color: rgb(40, 41, 61);
+    --dark-color: #070b1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.bg-theme {
+    background-color: var(--primary-color);
+}
+
+.bg-theme-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-theme-dark {
+    background-color: var(--dark-color);
+}
+
+.bg-gradient-theme {
+    background: linear-gradient(180deg, #ffd70d, #ffae05);
+}
+
+.text-gradient-theme {
+    /* background: linear-gradient(180deg, #ffd70d, #ffae05); */
+    color: var(--primary-color);
+}
+
+#hero-section {
+    background: url('../img/hero.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+}
+
+#brands {
+    overflow: hidden;
+    width: 100%;
+    background: gray;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(1%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scroll-area {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px;
+    animation: scroll 150s linear infinite;
+}
+
+.info-card-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    opacity: 0.8;
+}
+.download-button {
+    width: 200px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.fs-8 {
+    font-size: 10px;
+}
+
+.fs-9 {
+    font-size: 8px;
+}
+/* mobile device */
+
+@media only screen and (max-width: 600px) {
+    .info-card-container {
+        top: 90px;
+        padding: 5px 5px;
+    }
+
+    .small-text {
+        font-size: 12px;
+    }
+
+    .download-button {
+        width: 100px;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    #hero-section {
+        background: url('../img/hero-sm.webp');
+        background-size: cover;
+        background-position: center;
+    }
+
+
+}
