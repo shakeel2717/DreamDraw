@@ -44,10 +44,20 @@
     <!-- body -->
 
     <section id="cart" class="bg-theme-dark pb-5">
+        <div class="mobile-bottom-checkout bg-theme-dark d-block d-md-none">
+            <div class="terms text-center mt-4 bg-dark py-2">
+                <p class="fs-7 mb-0 text-white">You will earn 0 for this purchases</p>
+            </div>
+            <div class="checkout-ticket">
+                <div class="form-group">
+                    <button class="btn bg-gradient-theme mt-4 py-3 fw-bold w-100">Checkout £0.99</button>
+                </div>
+            </div>
+        </div>
         <div class="container">
 
             <div class="row">
-                <div class="col-md-8 order-md-1 order-2 mt-4">
+                <div class="col-md-8 mt-4">
                     <div class="row">
                         <div class="col-md-12 my-5">
                             <div class="d-flex justify-content-between align-items-center text-white">
@@ -55,7 +65,7 @@
                                 <h4>Cart</h4>
                                 <div></div>
                             </div>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-center d-none d-md-block">
                                 <div class="cart-notice rounded-pill bg-theme px-4 py-2 fw-bold">
                                     <i class="bi bi-alarm-fill"></i>
                                     Your cart will expire in 00 : 13 : 16
@@ -71,24 +81,24 @@
                                     <div class="position-absolute top-0 end-0 me-3 mt-3">
                                         <i class="bi bi-trash3 text-white fs-6"></i>
                                     </div>
-                                    <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
                                         <img src="img/product-thumb.webp" alt="Product thumb" width="150">
                                         <div class="item-detail">
-                                            <h6 class="text-white fw-bold">Win £500 Tax Free Cash</h6>
+                                            <h6 class="text-white fw-bold mt-4 mt-md-0">Win £500 Tax Free Cash</h6>
                                             <p class="text-white">£0.99 per entry | 1 entry</p>
                                             <div class="d-flex text-dark gap-2">
                                                 <span class="badge rounded-pill bg-theme px-4 py-1 fs-6 text-dark"> <a class="text-decoration-none text-dark" href="#">x</a> 763</span>
                                                 <span class="badge rounded-pill bg-theme px-4 py-1 fs-6 text-dark"> <a class="text-decoration-none text-dark" href="#">x</a> 763</span>
                                             </div>
                                         </div>
-                                        <h3 class="fs-4 text-gradient-theme">£0.99</h3>
+                                        <h3 class="fs-4 text-gradient-theme mt-4 mt-md-0">£0.99</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 order-md-2 order-1 mt-4">
+                <div class="col-md-4 mt-4">
                     <div class="card bg-theme-dark border border-dark text-white">
                         <div class="card-body">
                             <div class="text-start">
@@ -110,10 +120,10 @@
                                 <h4>Total</h4>
                                 <h4>£0.00</h4>
                             </div>
-                            <div class="terms text-center mt-4 bg-dark py-2">
-                                <p class="fs-7 mb-0">You will earn 0 for this purchases</p>
+                            <div class="terms text-center d-none d-md-block mt-4 bg-dark py-2">
+                                <p class="fs-7 mb-0 ">You will earn 0 for this purchases</p>
                             </div>
-                            <div class="checkout-ticket">
+                            <div class="checkout-ticket d-none d-md-block">
                                 <div class="form-group">
                                     <button class="btn bg-gradient-theme mt-4 py-3 fw-bold w-100">Checkout £0.99</button>
                                 </div>
