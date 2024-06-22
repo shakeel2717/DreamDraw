@@ -25,8 +25,8 @@
             </div>
             <div class="action-buttons d-flex justify-content-start align-items-center gap-4">
                 <div class="auth-buttons d-flex d-none d-md-flex justify-content-start align-items-center gap-4">
-                    <a href="#" class="btn btn-outline-light px-4">Sign in</a>
-                    <a href="#" class="btn bg-gradient-theme px-3">Sign Up</a>
+                    <a href="javascript:void(0)" class="btn btn-outline-light px-4" data-bs-toggle="modal" data-bs-target="#authModal">Sign in</a>
+                    <a href="javascript:void(0)" class="btn bg-gradient-theme px-3" data-bs-toggle="modal" data-bs-target="#authModal">Sign Up</a>
                 </div>
                 <div class="cart-button d-flex justify-content-end align-items-center gap-4">
                     <div class="cart">
@@ -367,6 +367,101 @@
             </div>
         </div>
     </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="authModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body bg-theme-dark">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn-close bg-white text-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs border-0 d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link bg-theme-dark text-theme active" data-bs-toggle="tab" href="#login">Sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-theme-dark text-theme" data-bs-toggle="tab" href="#register">Sign Up</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane container active" id="login">
+                            <h3 class="text-center my-4 text-white">Sign in</h3>
+                            <form action="#" method="POST">
+                                <div class="form-group mb-3">
+                                    <label for="email" class="text-white mb-2">Enter your Email</label>
+                                    <input type="email" name="email" id="email" placeholder="your email" class="form-control bg-dark text-white bg-theme-dark">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="text-white mb-2">Enter your Password</label>
+                                    <input type="password" name="password" id="password" placeholder="your password" class="form-control bg-dark text-white bg-theme-dark">
+                                </div>
+                                <div class="form-group text-end my-3">
+                                    <a href="#" class="text-theme text-decoration-none ">Forgot Password?</a>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn bg-gradient-theme text-dark py-2 fw-bold fs-5 w-100">Sign In</button>
+                                </div>
+                            </form>
+
+                            <p class="text-center my-4 text-white">Sign in via social account</p>
+                            <div class="d-flex flex-column gap-2">
+                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    <img src="/img/google.svg" alt="Google Login">
+                                    <p class="mb-0 text-white">Sign in with Google</p>
+                                </button>
+                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    <img src="/img/facebook.svg" alt="Facebook Login">
+                                    <p class="mb-0 text-white">Sign in with Facebook</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-pane container" id="register">
+                            <h3 class="text-center my-4 text-white">Sign up</h3>
+                            <form action="#" method="POST">
+                                <div class="form-group mb-3">
+                                    <label for="name" class="text-white mb-2">Enter your Full Name</label>
+                                    <input type="text" name="name" id="name" placeholder="your Full Name" class="form-control bg-dark text-white bg-theme-dark">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="email" class="text-white mb-2">Enter your Email</label>
+                                    <input type="email" name="email" id="email" placeholder="your email" class="form-control bg-dark text-white bg-theme-dark">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="text-white mb-2">Enter your Password</label>
+                                    <input type="password" name="password" id="password" placeholder="your password" class="form-control bg-dark text-white bg-theme-dark">
+                                </div>
+                                <div class="form-group text-end my-3">
+                                    <a href="#" class="text-theme text-decoration-none ">Forgot Password?</a>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn bg-gradient-theme text-dark py-2 fw-bold fs-5 w-100">Sign In</button>
+                                </div>
+                            </form>
+
+                            <p class="text-center my-4 text-white">Sign up via social account</p>
+                            <div class="d-flex flex-column gap-2">
+                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    <img src="/img/google.svg" alt="Google Login">
+                                    <p class="mb-0 text-white">Sign up with Google</p>
+                                </button>
+                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    <img src="/img/facebook.svg" alt="Facebook Login">
+                                    <p class="mb-0 text-white">Sign up with Facebook</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
