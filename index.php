@@ -16,7 +16,7 @@
     <div class="container-fluid py-3 px-md-3 bg-theme-dark text-white text-center">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center justify-content-between">
-                <a href="#" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0">Sign In</a>
+                <a href="#" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0" data-bs-toggle="modal" data-bs-target="#authModal">Sign In</a>
                 <img src="img/logo.svg" alt="Logo" class="logo me-md-4">
                 <ul class="list-unstyled d-none d-md-flex mb-0 d-flex justify-content-start align-items-center gap-4">
                     <li><a href="#" class="text-white text-decoration-none fw-bold">All competitions</a></li>
