@@ -180,9 +180,9 @@
                                     </div>
                                 </div>
                                 <div id="earned" class="container tab-pane fade"><br>
-                                    <h3>Menu 1</h3>
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat.</p>
+                                    <div class="point-box border border-warning rounded text-center text-white p-2">
+                                        You have <span class="badge bg-theme">0</span> Point
+                                    </div>
                                 </div>
                             </div>
                         </div>
