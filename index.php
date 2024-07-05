@@ -16,7 +16,8 @@
     <div class="container-fluid py-3 px-md-3 bg-theme-dark text-white text-center">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center justify-content-between">
-                <a href="/login.php" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0">Sign
+                <a href="javascript:void(0)" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0"
+                    data-bs-toggle="modal" data-bs-target="#authModal">Sign
                     In</a>
                 <img src="img/logo.svg" alt="Logo" class="logo me-md-4">
                 <ul class="list-unstyled d-none d-md-flex mb-0 d-flex justify-content-start align-items-center gap-4">
@@ -26,9 +27,9 @@
             </div>
             <div class="action-buttons d-flex justify-content-start align-items-center gap-4">
                 <div class="auth-buttons d-flex d-none d-md-flex justify-content-start align-items-center gap-4">
-                    <a href="login.php" class="btn btn-outline-light px-4" data-bs-toggle="modal"
+                    <a href="javascript:void(0)" class="btn btn-outline-light px-4" data-bs-toggle="modal"
                         data-bs-target="#authModal">Sign in</a>
-                    <a href="register.php" class="btn bg-gradient-theme px-3" data-bs-toggle="modal"
+                    <a href="javascript:void(0)" class="btn bg-gradient-theme px-3" data-bs-toggle="modal"
                         data-bs-target="#authModal">Sign Up</a>
                 </div>
                 <div class="cart-button d-flex justify-content-end align-items-center gap-4">
@@ -390,11 +391,13 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs border-0 d-flex justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link bg-theme-dark text-theme active" data-bs-toggle="tab" href="#login">Sign
+                            <a class="nav-link bg-theme-dark text-white border-gray" data-bs-toggle="tab"
+                                href="#login">Sign
                                 in</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bg-theme-dark text-theme" data-bs-toggle="tab" href="#register">Sign
+                            <a class="nav-link bg-theme-dark text-white border-gray" data-bs-toggle="tab"
+                                href="#register">Sign
                                 Up</a>
                         </li>
                     </ul>
@@ -407,12 +410,12 @@
                                 <div class="form-group mb-3">
                                     <label for="email" class="text-white mb-2">Enter your Email</label>
                                     <input type="email" name="email" id="email" placeholder="your email"
-                                        class="form-control bg-dark text-white bg-theme-dark">
+                                        class="form-control bg-dark text-white border-gray bg-theme-dark">
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="text-white mb-2">Enter your Password</label>
                                     <input type="password" name="password" id="password" placeholder="your password"
-                                        class="form-control bg-dark text-white bg-theme-dark">
+                                        class="form-control bg-dark text-white border-gray bg-theme-dark">
                                 </div>
                                 <div class="form-group text-end my-3">
                                     <a href="#" class="text-theme text-decoration-none ">Forgot Password?</a>
@@ -426,12 +429,12 @@
                             <p class="text-center my-4 text-white">Sign in via social account</p>
                             <div class="d-flex flex-column gap-2">
                                 <button
-                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    class="bg-theme-dark border-1 py-2 border-gray rounded outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/google.svg" alt="Google Login">
                                     <p class="mb-0 text-white">Sign in with Google</p>
                                 </button>
                                 <button
-                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    class="bg-theme-dark border-1 py-2 border-gray rounded outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/facebook.svg" alt="Facebook Login">
                                     <p class="mb-0 text-white">Sign in with Facebook</p>
                                 </button>
@@ -443,17 +446,17 @@
                                 <div class="form-group mb-3">
                                     <label for="name" class="text-white mb-2">Enter your Full Name</label>
                                     <input type="text" name="name" id="name" placeholder="your Full Name"
-                                        class="form-control bg-dark text-white bg-theme-dark">
+                                        class="form-control bg-dark border-gray text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="email" class="text-white mb-2">Enter your Email</label>
                                     <input type="email" name="email" id="email" placeholder="your email"
-                                        class="form-control bg-dark text-white bg-theme-dark">
+                                        class="form-control bg-dark  border-gray text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="text-white mb-2">Enter your Password</label>
                                     <input type="password" name="password" id="password" placeholder="your password"
-                                        class="form-control bg-dark text-white bg-theme-dark">
+                                        class="form-control bg-dark  border-gray text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group text-end my-3">
                                     <a href="#" class="text-theme text-decoration-none ">Forgot Password?</a>
@@ -467,12 +470,12 @@
                             <p class="text-center my-4 text-white">Sign up via social account</p>
                             <div class="d-flex flex-column gap-2">
                                 <button
-                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    class="bg-theme-dark border-1 py-2  border-gray rounded outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/google.svg" alt="Google Login">
                                     <p class="mb-0 text-white">Sign up with Google</p>
                                 </button>
                                 <button
-                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                    class="bg-theme-dark border-1 py-2  border-gray rounded outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/facebook.svg" alt="Facebook Login">
                                     <p class="mb-0 text-white">Sign up with Facebook</p>
                                 </button>

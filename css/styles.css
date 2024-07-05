@@ -18,6 +18,10 @@
     border-color: var(--primary-color) !important;
 }
 
+.border-gray {
+    border-color: #2a2d4080 !important;
+}
+
 .bg-theme-secondary {
     background-color: var(--secondary-color);
 }
@@ -213,4 +217,9 @@
 
 .fs-tiny {
     font-size: 12px;
+}
+
+.nav-link.active {
+    background-color: #070b1a;
+    color: #070b1a !important;
 }
