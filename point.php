@@ -158,23 +158,27 @@
                                             ?>
 
                                             <div class="col-md-3 ">
-                                                <div class="card mb-3">
-                                                    <div class="card-body d-flex justify-content-between">
-                                                        <div class="prize-info">
-                                                            <h3>£5 Site Credit</h3>
-                                                            <span
-                                                                class="bg-dark mb-4 text-white rounded-pill px-4 d-inline-flex align-items-center justify-content-start gap-2">
-                                                                <img src="img/exclamationIconLight.svg" alt="Icon">
-                                                                <p class="mb-0">100 RP</p>
-                                                            </span>
-                                                        </div>
-                                                        <div class="prize-img">
-                                                            <img src="/img/cred.webp" alt="Credit" width="70px">
+                                                <a href="javascript:void(0);" class="text-decoration-none"
+                                                    data-bs-toggle="modal" data-bs-target="#prizeModal<?php echo $i; ?>">
+                                                    <div class="card mb-3">
+                                                        <div class="card-body d-flex justify-content-between">
+                                                            <div class="prize-info">
+                                                                <h3 class="">£5 Site Credit</h3>
+                                                                <span
+                                                                    class="bg-dark mb-4 text-white rounded-pill px-4 d-inline-flex align-items-center justify-content-start gap-2">
+                                                                    <img src="img/exclamationIconLight.svg" alt="Icon">
+                                                                    <p class="mb-0">100 RP</p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="prize-img">
+                                                                <img src="/img/cred.webp" alt="Credit" width="70px">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </a>
                                             </div>
                                             <?php
+                                            include ("modal.php");
                                         }
                                         ?>
                                     </div>
