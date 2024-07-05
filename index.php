@@ -16,7 +16,8 @@
     <div class="container-fluid py-3 px-md-3 bg-theme-dark text-white text-center">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center justify-content-between">
-                <a href="/login.php" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0">Sign In</a>
+                <a href="/login.php" class="btn d-block d-md-none bg-gradient-theme me-3 py-1 fw-bold me-md-0">Sign
+                    In</a>
                 <img src="img/logo.svg" alt="Logo" class="logo me-md-4">
                 <ul class="list-unstyled d-none d-md-flex mb-0 d-flex justify-content-start align-items-center gap-4">
                     <li><a href="#" class="text-white text-decoration-none fw-bold">All competitions</a></li>
@@ -25,15 +26,17 @@
             </div>
             <div class="action-buttons d-flex justify-content-start align-items-center gap-4">
                 <div class="auth-buttons d-flex d-none d-md-flex justify-content-start align-items-center gap-4">
-                    <a href="login.php" class="btn btn-outline-light px-4" data-bs-toggle="modal" data-bs-target="#authModal">Sign in</a>
-                    <a href="register.php" class="btn bg-gradient-theme px-3" data-bs-toggle="modal" data-bs-target="#authModal">Sign Up</a>
+                    <a href="login.php" class="btn btn-outline-light px-4" data-bs-toggle="modal"
+                        data-bs-target="#authModal">Sign in</a>
+                    <a href="register.php" class="btn bg-gradient-theme px-3" data-bs-toggle="modal"
+                        data-bs-target="#authModal">Sign Up</a>
                 </div>
                 <div class="cart-button d-flex justify-content-end align-items-center gap-4">
                     <div class="cart">
                         <i class="bi bi-cart3 text-gradient-theme fs-2"></i>
                     </div>
                     <div class="nav-menu">
-                        <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#sidemenu">
+                        <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#sidemenuLoggedIn">
                             <i class="bi bi-list text-gradient-theme fs-2"></i>
                         </a>
                     </div>
@@ -59,7 +62,8 @@
         </div>
     </div>
 
-    <section id="hero-section" class="py-5 d-flex justify-content-center align-items-end align-items-md-center px-4 px-md-5 ">
+    <section id="hero-section"
+        class="py-5 d-flex justify-content-center align-items-end align-items-md-center px-4 px-md-5 ">
         <div class="container-fluid text-center text-md-start">
             <span class="badge bg-dark mt-5"><img src="img/crown.svg" alt="Crown"> JACKPOT DRAW</span>
             <h1 class="text-white responsive-heading fw-bold">WIN A MERCEDES GLC AMG <br> LINE + PRIZE BUNDLE!</h1>
@@ -81,10 +85,10 @@
                 if ($loop == 5) {
                     $i = 22;
                 }
-            ?>
+                ?>
                 <img src="img/brands/<?php echo $i; ?>.png" alt="Brand" class="me-4" width="50" <?php echo $i; ?>>
 
-            <?php
+                <?php
             }
             ?>
         </div>
@@ -169,7 +173,8 @@
                     <div class="d-md-flex justify-content-between align-items-center">
                         <img src="img/trust.svg" alt="" class="w-100 mb-4 d-block d-md-none">
                         <h3 class="text-white mb-3 text-center fs-6 fs-md-2 mb-md-0">Supported payment options</h3>
-                        <ul class="mb-0 list-unstyled mb-3 mb-md-0 d-flex justify-content-start align-items-center gap-2">
+                        <ul
+                            class="mb-0 list-unstyled mb-3 mb-md-0 d-flex justify-content-start align-items-center gap-2">
                             <li><img src="img/cards/Visa.svg" alt="Payment" width="40"></li>
                             <li><img src="img/cards/Mastercard.svg" alt="Payment" width="40"></li>
                             <li><img src="img/cards/ApplePay.svg" alt="Payment" width="40"></li>
@@ -258,10 +263,11 @@
             <div class="row mt-5">
                 <?php
                 for ($i = 0; $i < 4; $i++) {
-                ?>
+                    ?>
                     <div class="col-6 col-md-3 mb-5">
                         <div class="card bg-theme-secondary position-relative">
-                            <div class="position-absolute" style="top:-25px; width: 80%; left: 50%; transform: translateX(-50%);">
+                            <div class="position-absolute"
+                                style="top:-25px; width: 80%; left: 50%; transform: translateX(-50%);">
                                 <div class="bg-light rounded-pill text-center py-1 text-dark fs-7 fw-bold shadow">Draw
                                     Monday 10pm</div>
                             </div>
@@ -313,7 +319,8 @@
                 </div>
                 <div class="d-flex flex-column">
                     <h5 class="text-white text-center text-md-start mt-3 mt-md-0">Follow us</h5>
-                    <ul class="mb-0 list-unstyled fs-3 d-flex justify-content-around px-5 px-md-0 justify-content-md-center gap-2">
+                    <ul
+                        class="mb-0 list-unstyled fs-3 d-flex justify-content-around px-5 px-md-0 justify-content-md-center gap-2">
                         <li><i class="bi bi-facebook text-white"></i></li>
                         <li><i class="bi bi-messenger text-white"></i></li>
                         <li><i class="bi bi-whatsapp text-white"></i></li>
@@ -383,10 +390,12 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs border-0 d-flex justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link bg-theme-dark text-theme active" data-bs-toggle="tab" href="#login">Sign in</a>
+                            <a class="nav-link bg-theme-dark text-theme active" data-bs-toggle="tab" href="#login">Sign
+                                in</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bg-theme-dark text-theme" data-bs-toggle="tab" href="#register">Sign Up</a>
+                            <a class="nav-link bg-theme-dark text-theme" data-bs-toggle="tab" href="#register">Sign
+                                Up</a>
                         </li>
                     </ul>
 
@@ -397,27 +406,32 @@
                             <form action="#" method="POST">
                                 <div class="form-group mb-3">
                                     <label for="email" class="text-white mb-2">Enter your Email</label>
-                                    <input type="email" name="email" id="email" placeholder="your email" class="form-control bg-dark text-white bg-theme-dark">
+                                    <input type="email" name="email" id="email" placeholder="your email"
+                                        class="form-control bg-dark text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="text-white mb-2">Enter your Password</label>
-                                    <input type="password" name="password" id="password" placeholder="your password" class="form-control bg-dark text-white bg-theme-dark">
+                                    <input type="password" name="password" id="password" placeholder="your password"
+                                        class="form-control bg-dark text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group text-end my-3">
                                     <a href="#" class="text-theme text-decoration-none ">Forgot Password?</a>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn bg-gradient-theme text-dark py-2 fw-bold fs-5 w-100">Sign In</button>
+                                    <button type="submit"
+                                        class="btn bg-gradient-theme text-dark py-2 fw-bold fs-5 w-100">Sign In</button>
                                 </div>
                             </form>
 
                             <p class="text-center my-4 text-white">Sign in via social account</p>
                             <div class="d-flex flex-column gap-2">
-                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                <button
+                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/google.svg" alt="Google Login">
                                     <p class="mb-0 text-white">Sign in with Google</p>
                                 </button>
-                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                <button
+                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/facebook.svg" alt="Facebook Login">
                                     <p class="mb-0 text-white">Sign in with Facebook</p>
                                 </button>
@@ -428,31 +442,37 @@
                             <form action="#" method="POST">
                                 <div class="form-group mb-3">
                                     <label for="name" class="text-white mb-2">Enter your Full Name</label>
-                                    <input type="text" name="name" id="name" placeholder="your Full Name" class="form-control bg-dark text-white bg-theme-dark">
+                                    <input type="text" name="name" id="name" placeholder="your Full Name"
+                                        class="form-control bg-dark text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="email" class="text-white mb-2">Enter your Email</label>
-                                    <input type="email" name="email" id="email" placeholder="your email" class="form-control bg-dark text-white bg-theme-dark">
+                                    <input type="email" name="email" id="email" placeholder="your email"
+                                        class="form-control bg-dark text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="text-white mb-2">Enter your Password</label>
-                                    <input type="password" name="password" id="password" placeholder="your password" class="form-control bg-dark text-white bg-theme-dark">
+                                    <input type="password" name="password" id="password" placeholder="your password"
+                                        class="form-control bg-dark text-white bg-theme-dark">
                                 </div>
                                 <div class="form-group text-end my-3">
                                     <a href="#" class="text-theme text-decoration-none ">Forgot Password?</a>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn bg-gradient-theme text-dark py-2 fw-bold fs-5 w-100">Sign In</button>
+                                    <button type="submit"
+                                        class="btn bg-gradient-theme text-dark py-2 fw-bold fs-5 w-100">Sign In</button>
                                 </div>
                             </form>
 
                             <p class="text-center my-4 text-white">Sign up via social account</p>
                             <div class="d-flex flex-column gap-2">
-                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                <button
+                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/google.svg" alt="Google Login">
                                     <p class="mb-0 text-white">Sign up with Google</p>
                                 </button>
-                                <button class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
+                                <button
+                                    class="bg-theme-dark border-1 py-2 border-white outline-0 d-flex justify-content-center gap-2">
                                     <img src="/img/facebook.svg" alt="Facebook Login">
                                     <p class="mb-0 text-white">Sign up with Facebook</p>
                                 </button>
@@ -518,7 +538,8 @@
                 <div class="social-icons">
                     <div class="d-flex flex-column">
                         <h5 class="text-white text-center text-md-start mt-3 mt-md-0">Follow us</h5>
-                        <ul class="mb-0 list-unstyled fs-3 d-flex justify-content-around px-5 px-md-0 justify-content-md-center gap-2">
+                        <ul
+                            class="mb-0 list-unstyled fs-3 d-flex justify-content-around px-5 px-md-0 justify-content-md-center gap-2">
                             <li><i class="bi bi-facebook text-white"></i></li>
                             <li><i class="bi bi-messenger text-white"></i></li>
                             <li><i class="bi bi-whatsapp text-white"></i></li>
@@ -526,6 +547,157 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logged In Sidemenu -->
+    <div class="offcanvas offcanvas-end" id="sidemenuLoggedIn">
+        <div class="offcanvas-body text-white p-0 bg-theme-dark">
+            <div class="bg-dark px-4 py-2">
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <h6 class="text-white fw-bold">Hi Shakeel</h6>
+                <p> You have tickets in <span class="text-theme">0 active raffle</span></p>
+            </div>
+            <div class="px-4 py-2 mt-4">
+                <h6 class="text-uppercase text-light-gray fs-tiny fw-bold">My Points</h6>
+                <div class="point-balance">
+                    <h6>You have <span class="border border-theme rounded px-2">0</span> points</h6>
+                </div>
+                <p class="text-light-gray"> Use your Raffolux points to redeem prizes in the </p>
+            </div>
+            <div class="px-4 py-2 text-white">
+                <h6 class="fs-tiny fw-bold text-light-gray">MENU</h6>
+                <ul class="list-unstyled d-flex flex-column gap-1 mb-0">
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-house-door fs-5"></i>
+                                    <h6 class="mb-0">Home</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-ticket-perforated fs-5"></i>
+                                    <h6 class="mb-0">My Tickets <sup
+                                            class="bg-theme px-2 py-0 rounded-pill text-dark">0</sup></h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-filter-circle fs-5"></i>
+                                    <div class="d-flex justify-content-between align-items-center w-100">
+                                        <h6 class="mb-0">My Credits </h6>
+                                        <span class="px-2 py-0 text-theme text-end fs-tiny">0.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-bag fs-5"></i>
+                                    <h6 class="mb-0">Store</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-trophy fs-5"></i>
+                                    <h6 class="mb-0">Winners</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-gift fs-5"></i>
+                                    <h6 class="mb-0">Refer a friend</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-box2-heart fs-5"></i>
+                                    <h6 class="mb-0">Charity</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <h6 class="fs-tiny fw-bold text-light-gray">ACCOUNT SETTINGS</h6>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-person fs-5"></i>
+                                    <h6 class="mb-0">Personal info</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <h6 class="fs-tiny fw-bold text-light-gray">SITE INFORMATION</h6>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-question-circle fs-5"></i>
+                                    <h6 class="mb-0">Help & FAQs</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="text-decoration-none text-white">
+                            <div class="card bg-light-gray card-body py-2 bg-none">
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-box-arrow-right fs-5"></i>
+                                    <h6 class="mb-0">Logout</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex mt-4 mb-5 justify-content-center align-items-center gap-1">
+                    <a href="#" class="fs-tiny text-decoration-none text-white">Terms</a>
+                    <span>|</span>
+                    <a href="#" class="fs-tiny text-decoration-none text-white">Privacy</a>
+                    <span>|</span>
+                    <a href="#" class="fs-tiny text-decoration-none text-white">Responsible Play</a>
+                </div>
+                <div class="social-icons">
+                    <div class="d-flex flex-column">
+                        <h5 class="text-white text-center text-md-start mt-3 mt-md-0">Follow us</h5>
+                        <ul
+                            class="mb-0 list-unstyled fs-3 d-flex justify-content-around px-5 px-md-0 justify-content-md-center gap-2">
+                            <li><i class="bi bi-facebook text-white"></i></li>
+                            <li><i class="bi bi-messenger text-white"></i></li>
+                            <li><i class="bi bi-whatsapp text-white"></i></li>
+                            <li><i class="bi bi-facebook text-white"></i></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

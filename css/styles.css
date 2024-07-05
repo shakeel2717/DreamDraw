@@ -15,7 +15,7 @@
 }
 
 .border-theme {
-    border-color: var(--primary-color);
+    border-color: var(--primary-color) !important;
 }
 
 .bg-theme-secondary {
@@ -201,4 +201,16 @@
     border-end-end-radius: 20px;
     border-top-right-radius: 20px;
 
+}
+
+.text-light-gray {
+    color: rgba(158, 158, 158, 0.8);
+}
+
+.bg-light-gray {
+    background-color: #14162880;
+}
+
+.fs-tiny {
+    font-size: 12px;
 }
