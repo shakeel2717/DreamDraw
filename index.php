@@ -74,6 +74,40 @@
         </div>
     </section>
 
+    <section class="bg-theme-dark py-5 d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 p-0 px-2">
+                    <div class="card bg-theme-dark" style="border: 1px solid gray;">
+                        <div class="card-body py-1 text-center text-white">
+                            <i class="bi bi-gift fs-1 text-gradient-theme"></i>
+                            <h6 class="mb-0">$17.3</h6>
+                            <p class="mb-0" style="font-size:12px;">won in prizes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 px-2">
+                    <div class="card bg-theme-dark" style="border: 1px solid gray;">
+                        <div class="card-body py-1 text-center text-white">
+                            <i class="bi bi-trophy fs-1 text-gradient-theme"></i>
+                            <h6 class="mb-0">$17.3</h6>
+                            <p class="mb-0" style="font-size:12px;">won in prizes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 px-2">
+                    <div class="card bg-theme-dark" style="border: 1px solid gray;">
+                        <div class="card-body py-1 text-center text-white">
+                            <i class="bi bi-patch-check fs-1 text-gradient-theme"></i>
+                            <h6 class="mb-0">$17.3</h6>
+                            <p class="mb-0" style="font-size:12px;">won in prizes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="brands" class="py-2 d-none d-md-block">
         <div class="scroll-area">
             <?php
