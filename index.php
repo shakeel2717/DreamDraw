@@ -425,7 +425,7 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs border-0 d-flex justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link bg-theme-dark text-white border-gray" data-bs-toggle="tab"
+                            <a class="nav-link active bg-theme-dark text-white border-gray" data-bs-toggle="tab"
                                 href="#login">Sign
                                 in</a>
                         </li>
